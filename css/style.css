@@ -1,0 +1,48 @@
+/* google font is imported here  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400;500&display=swap');
+body{
+    font-family: 'Roboto Serif', sans-serif;
+}
+/* customize heading text  */
+.text{
+    display: inline;
+    color: indianred;
+}
+/* stting bg-color of grid item  */
+.grid-item{
+    background-color: rgba(253, 224, 224, 0.205);   
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* customize image column  */
+.image{
+    text-align: center;
+    overflow: hidden;
+}
+/* button style  */
+.btn{
+    background-color:indianred;
+    font-size: 15px;
+    font-weight: 700;
+    color: khaki;
+    padding:5px;
+}
+/* heading & error message icon style  */
+.icon{
+    display:inline;
+    width: 30px;
+    height: 25px;
+}
+
+/* html expense-balance div  */
+.expanse-balance{
+    padding-top: 15px;
+}
+/* error message style  */
+.error{
+    display: none;
+    color: rgb(228, 22, 22);
+    font-size: medium;
+    font-weight: 700;
+}
